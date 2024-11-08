@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5C54542CDEC8B7002D0C0E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C54502CDEC8B7002D0C0E /* Info.plist */; };
+		2D5C54552CDEC8B7002D0C0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C544C2CDEC8B7002D0C0E /* Preview Assets.xcassets */; };
+		2D5C54562CDEC8B7002D0C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C544E2CDEC8B7002D0C0E /* Assets.xcassets */; };
+		2D5C54572CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */; };
+		2D5C54582CDEC8B7002D0C0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C544F2CDEC8B7002D0C0E /* ContentView.swift */; };
+		2D5C545A2CDEC8B7002D0C0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C544C2CDEC8B7002D0C0E /* Preview Assets.xcassets */; };
+		2D5C545B2CDEC8B7002D0C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C544E2CDEC8B7002D0C0E /* Assets.xcassets */; };
+		2D5C545C2CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */; };
+		2D5C545D2CDEC8B7002D0C0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C544F2CDEC8B7002D0C0E /* ContentView.swift */; };
 		2DE3E1462C4CAF9100DC1D9D /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE3E1452C4CAF9100DC1D9D /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
@@ -21,23 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2DE3E1402C4CAF9100DC1D9D /* VisionHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5C544C2CDEC8B7002D0C0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D5C544E2CDEC8B7002D0C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D5C544F2CDEC8B7002D0C0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D5C54502CDEC8B7002D0C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5C54512CDEC8B7002D0C0E /* VisionHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionHome.entitlements; sourceTree = "<group>"; };
+		2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionHomeApp.swift; sourceTree = "<group>"; };
+		2DE3E1402C4CAF9100DC1D9D /* Abode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE3E1442C4CAF9100DC1D9D /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		2DE3E1552C4CAF9300DC1D9D /* VisionHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE3E1552C4CAF9300DC1D9D /* AbodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2DE3E15B2C4CAF9300DC1D9D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 2DE3E13F2C4CAF9100DC1D9D /* VisionHome */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2DE3E1422C4CAF9100DC1D9D /* VisionHome */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (2DE3E15B2C4CAF9300DC1D9D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = VisionHome; sourceTree = "<group>"; };
 		2DE3E1582C4CAF9300DC1D9D /* VisionHomeTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = VisionHomeTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -60,10 +64,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D5C544D2CDEC8B7002D0C0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D5C544C2CDEC8B7002D0C0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D5C54532CDEC8B7002D0C0E /* Abode */ = {
+			isa = PBXGroup;
+			children = (
+				2D5C544D2CDEC8B7002D0C0E /* Preview Content */,
+				2D5C544E2CDEC8B7002D0C0E /* Assets.xcassets */,
+				2D5C544F2CDEC8B7002D0C0E /* ContentView.swift */,
+				2D5C54502CDEC8B7002D0C0E /* Info.plist */,
+				2D5C54512CDEC8B7002D0C0E /* VisionHome.entitlements */,
+				2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */,
+			);
+			path = Abode;
+			sourceTree = "<group>";
+		};
 		2DE3E1372C4CAF9100DC1D9D = {
 			isa = PBXGroup;
 			children = (
-				2DE3E1422C4CAF9100DC1D9D /* VisionHome */,
+				2D5C54532CDEC8B7002D0C0E /* Abode */,
 				2DE3E1432C4CAF9100DC1D9D /* Packages */,
 				2DE3E1582C4CAF9300DC1D9D /* VisionHomeTests */,
 				2DE3E1412C4CAF9100DC1D9D /* Products */,
@@ -73,8 +98,8 @@
 		2DE3E1412C4CAF9100DC1D9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DE3E1402C4CAF9100DC1D9D /* VisionHome.app */,
-				2DE3E1552C4CAF9300DC1D9D /* VisionHomeTests.xctest */,
+				2DE3E1402C4CAF9100DC1D9D /* Abode.app */,
+				2DE3E1552C4CAF9300DC1D9D /* AbodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DE3E13F2C4CAF9100DC1D9D /* VisionHome */ = {
+		2DE3E13F2C4CAF9100DC1D9D /* Abode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE3E15C2C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "VisionHome" */;
+			buildConfigurationList = 2DE3E15C2C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "Abode" */;
 			buildPhases = (
 				2DE3E13C2C4CAF9100DC1D9D /* Sources */,
 				2DE3E13D2C4CAF9100DC1D9D /* Frameworks */,
@@ -102,20 +127,17 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				2DE3E1422C4CAF9100DC1D9D /* VisionHome */,
-			);
-			name = VisionHome;
+			name = Abode;
 			packageProductDependencies = (
 				2DE3E1452C4CAF9100DC1D9D /* RealityKitContent */,
 			);
 			productName = VisionHome;
-			productReference = 2DE3E1402C4CAF9100DC1D9D /* VisionHome.app */;
+			productReference = 2DE3E1402C4CAF9100DC1D9D /* Abode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DE3E1542C4CAF9300DC1D9D /* VisionHomeTests */ = {
+		2DE3E1542C4CAF9300DC1D9D /* AbodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE3E1612C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "VisionHomeTests" */;
+			buildConfigurationList = 2DE3E1612C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "AbodeTests" */;
 			buildPhases = (
 				2DE3E1512C4CAF9300DC1D9D /* Sources */,
 				2DE3E1522C4CAF9300DC1D9D /* Frameworks */,
@@ -129,11 +151,11 @@
 			fileSystemSynchronizedGroups = (
 				2DE3E1582C4CAF9300DC1D9D /* VisionHomeTests */,
 			);
-			name = VisionHomeTests;
+			name = AbodeTests;
 			packageProductDependencies = (
 			);
 			productName = VisionHomeTests;
-			productReference = 2DE3E1552C4CAF9300DC1D9D /* VisionHomeTests.xctest */;
+			productReference = 2DE3E1552C4CAF9300DC1D9D /* AbodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DE3E13B2C4CAF9100DC1D9D /* Build configuration list for PBXProject "VisionHome" */;
+			buildConfigurationList = 2DE3E13B2C4CAF9100DC1D9D /* Build configuration list for PBXProject "Abode" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DE3E13F2C4CAF9100DC1D9D /* VisionHome */,
-				2DE3E1542C4CAF9300DC1D9D /* VisionHomeTests */,
+				2DE3E13F2C4CAF9100DC1D9D /* Abode */,
+				2DE3E1542C4CAF9300DC1D9D /* AbodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C545A2CDEC8B7002D0C0E /* Preview Assets.xcassets in Resources */,
+				2D5C545B2CDEC8B7002D0C0E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C54542CDEC8B7002D0C0E /* Info.plist in Resources */,
+				2D5C54552CDEC8B7002D0C0E /* Preview Assets.xcassets in Resources */,
+				2D5C54562CDEC8B7002D0C0E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C545C2CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */,
+				2D5C545D2CDEC8B7002D0C0E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C54572CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */,
+				2D5C54582CDEC8B7002D0C0E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +242,7 @@
 /* Begin PBXTargetDependency section */
 		2DE3E1572C4CAF9300DC1D9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DE3E13F2C4CAF9100DC1D9D /* VisionHome */;
+			target = 2DE3E13F2C4CAF9100DC1D9D /* Abode */;
 			targetProxy = 2DE3E1562C4CAF9300DC1D9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -222,20 +253,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Abode/VisionHome.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VisionHome/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Abode/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ST82B3Y8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Home;
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "Control Home";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = world.aethers.VisionHome;
+				PRODUCT_BUNDLE_IDENTIFIER = world.aethers.Abode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -248,20 +284,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Abode/VisionHome.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VisionHome/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Abode/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ST82B3Y8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Home;
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "Control Home";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = world.aethers.VisionHome;
+				PRODUCT_BUNDLE_IDENTIFIER = world.aethers.Abode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DE3E13B2C4CAF9100DC1D9D /* Build configuration list for PBXProject "VisionHome" */ = {
+		2DE3E13B2C4CAF9100DC1D9D /* Build configuration list for PBXProject "Abode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DE3E15F2C4CAF9300DC1D9D /* Debug */,
@@ -440,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DE3E15C2C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "VisionHome" */ = {
+		2DE3E15C2C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "Abode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DE3E15D2C4CAF9300DC1D9D /* Debug */,
@@ -449,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DE3E1612C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "VisionHomeTests" */ = {
+		2DE3E1612C4CAF9300DC1D9D /* Build configuration list for PBXNativeTarget "AbodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DE3E1622C4CAF9300DC1D9D /* Debug */,

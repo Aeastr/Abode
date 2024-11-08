@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts and intermediate files
+build/
+*.o
+*.LinkFileList
+*.hmap
+
+# Xcode specific
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+
+# Code signing and project-specific settings
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/xcschemes/*
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Archives
+*.xcarchive
+
+# Symbols
+*.dSYM.zip
+*.dSYM
+
+# App Store
+*.ipa
+*.xcuserstate
+
+# Other
+*.plist
+
+# Fastlane specific
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Firebase configuration files
+GoogleService-Info.plist
+
+# Environment files
+.env*
