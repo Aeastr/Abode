@@ -5,4 +5,7 @@
   <a href=""><strong>Explore Features »</strong></a><br><br>
   <a href="">Download for visionOS</a><br>
   <i>Compatible with visionOS 2.0 and later</i></p>
+  <i>Work in Progress</i></p>
 </div>
+
+Abode is a visionOS app that let's you control your Homekit Home. Made to replace the built in visionOS iPad compatible app with a native visionOS App
