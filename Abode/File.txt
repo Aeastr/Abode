@@ -1,0 +1,10 @@
+// HMAccessory+Extensions.swift
+
+import HomeKit
+
+extension HMAccessory {
+    func find(serviceType: String, characteristicType: String) -> HMCharacteristic? {
+        return services.first { $0.serviceType == serviceType }?
+            .characteristics.first { $0.characteristicType == characteristicType }
+    }
+}

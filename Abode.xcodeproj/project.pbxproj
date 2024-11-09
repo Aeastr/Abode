@@ -16,6 +16,20 @@
 		2D5C545B2CDEC8B7002D0C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C544E2CDEC8B7002D0C0E /* Assets.xcassets */; };
 		2D5C545C2CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */; };
 		2D5C545D2CDEC8B7002D0C0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C544F2CDEC8B7002D0C0E /* ContentView.swift */; };
+		2D5C545F2CDECFB8002D0C0E /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C545E2CDECFB8002D0C0E /* HomeStore.swift */; };
+		2D5C54602CDECFB8002D0C0E /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C545E2CDECFB8002D0C0E /* HomeStore.swift */; };
+		2D5C54652CDECFE0002D0C0E /* HMAccessory+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54642CDECFDD002D0C0E /* HMAccessory+Extensions.swift */; };
+		2D5C54662CDECFE0002D0C0E /* HMAccessory+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54642CDECFDD002D0C0E /* HMAccessory+Extensions.swift */; };
+		2D5C54682CDECFF9002D0C0E /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54672CDECFF9002D0C0E /* Light.swift */; };
+		2D5C54692CDECFF9002D0C0E /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54672CDECFF9002D0C0E /* Light.swift */; };
+		2D5C546B2CDED004002D0C0E /* LightControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C546A2CDED004002D0C0E /* LightControlView.swift */; };
+		2D5C546C2CDED004002D0C0E /* LightControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C546A2CDED004002D0C0E /* LightControlView.swift */; };
+		2D5C546E2CDED293002D0C0E /* Plug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C546D2CDED293002D0C0E /* Plug.swift */; };
+		2D5C546F2CDED293002D0C0E /* Plug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C546D2CDED293002D0C0E /* Plug.swift */; };
+		2D5C54712CDF0738002D0C0E /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54702CDF0738002D0C0E /* AccessoryView.swift */; };
+		2D5C54722CDF0738002D0C0E /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54702CDF0738002D0C0E /* AccessoryView.swift */; };
+		2D5C54742CDF0849002D0C0E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54732CDF0849002D0C0E /* ActionButton.swift */; };
+		2D5C54752CDF0849002D0C0E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54732CDF0849002D0C0E /* ActionButton.swift */; };
 		2DE3E1462C4CAF9100DC1D9D /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE3E1452C4CAF9100DC1D9D /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +50,13 @@
 		2D5C54502CDEC8B7002D0C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D5C54512CDEC8B7002D0C0E /* VisionHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionHome.entitlements; sourceTree = "<group>"; };
 		2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionHomeApp.swift; sourceTree = "<group>"; };
+		2D5C545E2CDECFB8002D0C0E /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
+		2D5C54642CDECFDD002D0C0E /* HMAccessory+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HMAccessory+Extensions.swift"; sourceTree = "<group>"; };
+		2D5C54672CDECFF9002D0C0E /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		2D5C546A2CDED004002D0C0E /* LightControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlView.swift; sourceTree = "<group>"; };
+		2D5C546D2CDED293002D0C0E /* Plug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plug.swift; sourceTree = "<group>"; };
+		2D5C54702CDF0738002D0C0E /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		2D5C54732CDF0849002D0C0E /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		2DE3E1402C4CAF9100DC1D9D /* Abode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE3E1442C4CAF9100DC1D9D /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		2DE3E1552C4CAF9300DC1D9D /* AbodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,9 +96,16 @@
 		2D5C54532CDEC8B7002D0C0E /* Abode */ = {
 			isa = PBXGroup;
 			children = (
+				2D5C54642CDECFDD002D0C0E /* HMAccessory+Extensions.swift */,
+				2D5C545E2CDECFB8002D0C0E /* HomeStore.swift */,
 				2D5C544D2CDEC8B7002D0C0E /* Preview Content */,
 				2D5C544E2CDEC8B7002D0C0E /* Assets.xcassets */,
 				2D5C544F2CDEC8B7002D0C0E /* ContentView.swift */,
+				2D5C54672CDECFF9002D0C0E /* Light.swift */,
+				2D5C546D2CDED293002D0C0E /* Plug.swift */,
+				2D5C546A2CDED004002D0C0E /* LightControlView.swift */,
+				2D5C54702CDF0738002D0C0E /* AccessoryView.swift */,
+				2D5C54732CDF0849002D0C0E /* ActionButton.swift */,
 				2D5C54502CDEC8B7002D0C0E /* Info.plist */,
 				2D5C54512CDEC8B7002D0C0E /* VisionHome.entitlements */,
 				2D5C54522CDEC8B7002D0C0E /* VisionHomeApp.swift */,
@@ -224,7 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D5C545C2CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */,
+				2D5C546E2CDED293002D0C0E /* Plug.swift in Sources */,
+				2D5C54692CDECFF9002D0C0E /* Light.swift in Sources */,
+				2D5C54602CDECFB8002D0C0E /* HomeStore.swift in Sources */,
+				2D5C54652CDECFE0002D0C0E /* HMAccessory+Extensions.swift in Sources */,
+				2D5C54742CDF0849002D0C0E /* ActionButton.swift in Sources */,
+				2D5C54722CDF0738002D0C0E /* AccessoryView.swift in Sources */,
 				2D5C545D2CDEC8B7002D0C0E /* ContentView.swift in Sources */,
+				2D5C546C2CDED004002D0C0E /* LightControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +267,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C54682CDECFF9002D0C0E /* Light.swift in Sources */,
+				2D5C545F2CDECFB8002D0C0E /* HomeStore.swift in Sources */,
+				2D5C54662CDECFE0002D0C0E /* HMAccessory+Extensions.swift in Sources */,
 				2D5C54572CDEC8B7002D0C0E /* VisionHomeApp.swift in Sources */,
+				2D5C54712CDF0738002D0C0E /* AccessoryView.swift in Sources */,
+				2D5C546B2CDED004002D0C0E /* LightControlView.swift in Sources */,
+				2D5C546F2CDED293002D0C0E /* Plug.swift in Sources */,
 				2D5C54582CDEC8B7002D0C0E /* ContentView.swift in Sources */,
+				2D5C54752CDF0849002D0C0E /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +304,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Home;
+				INFOPLIST_KEY_CFBundleDisplayName = Abode;
 				INFOPLIST_KEY_NSHomeKitUsageDescription = "Control Home";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +335,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Home;
+				INFOPLIST_KEY_CFBundleDisplayName = Abode;
 				INFOPLIST_KEY_NSHomeKitUsageDescription = "Control Home";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
