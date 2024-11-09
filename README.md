@@ -10,7 +10,7 @@
 
 🏠 About Abode
 
-Abode is a native visionOS app that allows you to effortlessly control your HomeKit home. Designed to replace the built-in visionOS iPad-compatible app, Abode offers a seamless and immersive experience tailored specifically for visionOS users.
+Abode is a native visionOS app that allows you to effortlessly control your HomeKit home. Designed to replace the built-in visionOS iPad-compatible app, Abode offers a native experience for visionOS users.
 
 	Note: This is a fun side project and not intended to be a full-fledged commercial application.
 
